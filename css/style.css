@@ -548,9 +548,10 @@ nav.navbar.navbar-default {
 .newsletter-tp{
 	 padding: 5em 0;
 }
-.footer {
+/* .footer {
    height: 60vh;
-}.footer::before {
+} */
+.footer::before {
     content: "";
     background: url(../images/1.jpg) no-repeat 0px 0px;
     background-repeat: no-repeat;
@@ -562,8 +563,8 @@ nav.navbar.navbar-default {
     background-size: cover;
     z-index: 0;
     width: 100vw;
-    height: 72%;
-    filter: brightness(0.4) !important;
+    height: 45%;
+    filter: brightness(0.2) !important;
 }
 .footer-top {
     padding: 4rem 0;
