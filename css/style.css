@@ -563,7 +563,7 @@ background-size: cover;
 z-index: 0;
 width: 100vw;
 height: 45%;
-filter: brightness(0.2) !important;
+filter: brightness(0.3) !important;
 
 }
 .footer-top{
@@ -2576,7 +2576,7 @@ input.email {
 	.newsletter h4 {
 		font-size: 26px;
 	}
-	.bannerbottom, .testimonials, .gallery_main,.special, .codes, .typography,.footer ,.services, .blog, .about, .menu, .why-choose-agile,.contact{
+	.bannerbottom, .testimonials, .gallery_main,.special, .codes, .typography ,.services, .blog, .about, .menu, .why-choose-agile,.contact{
 		padding: 4em 0;
 	}
 	.team {
@@ -3071,6 +3071,10 @@ input.email {
 	.wthree_agile_us {
 		margin-top: 1em;
 	}
+	/* change height */
+	.footer::before{
+		height: 96%;
+	}
 }
 @media(max-width:640px){
 	.banner2, .banner-dott1 {
@@ -3183,7 +3187,7 @@ input.email {
 	.w3ls-special-text:after {
 		width: 230px;
 	}
-	.bannerbottom, .testimonials, .gallery_main,.special, .codes, .typography,.footer ,.services, .blog, .about, .menu, .why-choose-agile,.contact{
+	.bannerbottom, .testimonials, .gallery_main,.special, .codes, .typography,.services, .blog, .about, .menu, .why-choose-agile,.contact{
 		padding: 3em 0;
 	}
 	.team {
